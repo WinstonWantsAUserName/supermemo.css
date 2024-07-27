@@ -3,7 +3,7 @@ body, table {
   color: white;
   line-height: 1.4;
   font-size: 29px;
-  /* From MS Edge's immersive reader; doesn't work well with ancient greek */
+  /* From MS Edge's immersive reader; doesn't work well with ancient Greek */
   /* font-family: Sitka Text, Georgia, Cambria, Calibri, Times New Roman; */
   font-family: Arial; sans-serif;
   font-style: normal;
