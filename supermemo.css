@@ -1,0 +1,213 @@
+body, table {
+  background-color: #222;
+  color: white;
+  line-height: 1.4;
+  font-size: 29px;
+  /* From MS Edge's immersive reader; doesn't work well with ancient greek */
+  /* font-family: Sitka Text, Georgia, Cambria, Calibri, Times New Roman; */
+  font-family: Arial; sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  orphans: 2;
+  text-align: start;
+  text-indent: 0px;
+  text-transform: none;
+  white-space: normal;
+  widows: 2;
+  word-spacing: 0px;
+  -webkit-text-stroke-width: 0px;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  display: inline !important;
+  float: none;
+}
+
+.cloze {
+  background-color: #555; 
+  color: #ddd;
+  font-weight: bold;
+}
+
+.clozed {
+  background-color: orange;
+  color: #000000;
+}
+
+.extract {
+  background-color: #44c2aa;
+}
+
+.headers {
+  background-color: #c6c6ff; 
+  color: #000000;
+}
+
+.reftext {
+  background-color: #ffffc4;
+  color: #000000;
+}
+
+a {
+  color: lightblue;
+}
+
+a:visited {
+  color: pink;
+}
+
+.highlight {
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+.searchhighlight {
+  background-color: yellow;
+  color: black;
+}
+
+.ignore {
+  background-color: #dab6b6;
+  color: #000000;
+  font-family: Arial;
+  font-style: italic;
+}
+
+.tablelabel {
+  background-color: #cccccc;
+  color: blue;
+  font-family: Arial;
+  font-style: italic;
+}
+
+.hint {
+  padding: .25em;
+  color: black;
+  background-color: #e0e0e0;
+}
+
+.note {
+  font-size: smaller;
+}
+
+h1 {
+  font-size: 40px;
+  background-color: red;
+  color: white;
+}
+
+h2 {
+  font-size: 38px;
+  background-color: purple;
+  color: white;
+}
+
+h3 {
+  font-size: 36px;
+  background-color: #00964b;
+  color: white;
+}
+
+h4 {
+  font-size: 34px;
+  background-color: indianred;
+  color: white;
+}
+
+div {
+  background-color: #111;
+}
+
+p {
+  background-color: #333;
+}
+
+.anti-merge {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.italic-bold {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.italic-underline {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.bold-underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.italic-overline {
+  font-style: italic;
+  text-decoration: overline;
+}
+
+.bold-overline {
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+.underline-overline {
+  text-decoration: underline;
+  text-decoration: overline;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+}
+
+.ilya-frank-translation {
+  color: lightgreen;
+}
+
+cite {
+  font-style: normal;
+}
+
+img {
+  background-color: white;
+}
+
+/* Google coding style guides */
+.badcode {
+  background-color: darkred;
+}
+
+q {
+  color: lightgray;
+  font-style: italic;
+}
